@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Noticias!</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="js/script.js"></script>
+        <!-- type="text/javascript" ( The type attribute is unnecessary for JavaScript resources. )-->
+
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" class="ativo">principal</a>
+                <a href="politica.html">Política</a>
+                <a href="educacao.html">educação</a>
+                <a href="saude.html">saúde</a>
+                <a style="display: none;" href="#">contato</a>
+                <a href="#autoria" onclick="exibir()">sobre (clique)</a>
+                <a style="display: none;" href="#">Buscar</a>
+                <a href="#" id="view" title="Expandir">View</a>
+            </nav>
+
+            <h1>Site de Notícias</h1>
+
+        </header>
+
+        <main>
+            <h1 title="Expandir Manchete">Teste de layout: elementos filhos do painel "main"</h1>
+            <h2>Caderno: Principal || Data: 15/20/25</h2>
+            <p>
+                O layout da página atual procura enteder como preencher o painel formado pelo elemento "main" com
+                elementos "h1", "h2", "p" e "a". Dessa forma, a próxima etapa será gerar dinamicamente os elementos
+                "h1", "a" e etc., todos estes filhos de "main", para exibir uma coluna com notícias devidamente
+                estilizadas.
+            </p>
+            <a href="#" class="botao">||voltar|| notícia anterior</a>
+            <a href="#" class="botao">próxima notícia ||avançar||</a>
+
+            <h1 title="Expandir Manchete">Layout responsivo</h1>
+            <h2>Caderno: Principal || Data: 2/2/12</h2>
+            <p>
+                Se o teste anterior, feito com os elementos filhos de "main", for um sucesso, o atual layout do Site de
+                Notícias já é uma boa referência para o projeto final, pois muitos elementos já são estilizados com bom
+                grau de sucesso em diferentes resoluções.
+            </p>
+            <a href="#" class="botao">||voltar|| notícia anterior</a>
+            <a href="#" class="botao">próxima notícia ||avançar||</a>
+
+            <h1 title="Expandir Manchete">O conteúdo de "ABOUT"</h1>
+            <h2>Caderno: Principal || Data: 08/06/1988</h2>
+            <p>
+                O conteúdo das informações sobre os desenvolvedores está presente em todas as páginas, mas só é exibido
+                quando selecionado. Talvez algum mecanismo similar posssa "Expandir" ou "Fechar" uma notícia, um painel,
+                uma imagem, etc.
+            </p>
+            <a href="#" class="botao">||voltar|| notícia anterior</a>
+            <a href="#" class="botao">próxima notícia ||avançar||</a>
+
+        </main>
+
+        <aside>
+            <h1 title="Expandir Resultados">Resultados da Busca: Painel Lateral</h1>
+            <p>Quanta coisa cabe em um painel lateral? É possível exibir detalhes, resultados e fotos sem sair da
+                página!</p>
+
+            <h2>Caracteristicas importantes do layout:</h2>
+            <p id="imgExemplo"></p>
+            <p>Imagem do navegador de internet exibindo o Site de Notícias em uma janela 580px x 740px</p><br>
+            <h2>Fontes e referências bibliográficas:</h2>
+            <h3>Total Serch results:</h3>
+            <p>results</p>
+            <h3>Total review results:</h3>
+            <p>results</p>
+            <h3>Média x Tempo</h3>
+            <p>results</p>
+            <p>Ver resultados: Lorem Ipsum</p>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod sollicitudin …
+                Português
+                Lorem Ipsum vem das secções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" …
+                Türkçe
+                Türkçe - Lorem Ipsum - All the facts - Lipsum generator
+                Magyar
+                Magyar - Lorem Ipsum - All the facts - Lipsum generator
+                Suomi
+                Lorem Ipsum tulee osista 1.10.32 ja 1.10.33 "de Finibus Bonorum et Malorum":ksesta (The …
+                Dansk
+                Lorem Ipsum har været standard fyldtekst siden 1500-tallet, hvor en ukendt trykker …
+                Hrvatski
+                Hrvatski - Lorem Ipsum - All the facts - Lipsum generator
+                Eesti
+                Eesti - Lorem Ipsum - All the facts - Lipsum generator
+                Shqip
+                Lorem Ipsum vjen nga seksionet 1.10.32 dhe 1.10.33 të "de Finibus Bonorum et Malorum" …
+                Català
+                Lorem ipsum procedeix de les seccions 1.10.32 i 1.10.33 de "De Finibus Bonorum et …
+                Ver resultados somente de br.lipsum.com</p>
+        </aside>
+
+        <footer>
+            <p><a href="#autoria" onclick="exibir()">SOBRE || (clique aqui): Pedro Campos Rix - CP3005569; Rafael Vianna
+                    Weyl Cruz - CP3003337.</a></p>
+            <div id="autoria"><a href="#autoria" id="close" title="Fechar" onclick="ocultar()">Close</a>
+            </div>
+        </footer>
+    </body>
+
+</html>
